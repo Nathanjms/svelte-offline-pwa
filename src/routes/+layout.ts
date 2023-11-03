@@ -1,2 +1,2 @@
-// We want to prerender every page
-export const prerender = true;
+// Turn into a Single Page App by setting ssr to false.
+export const ssr = false;

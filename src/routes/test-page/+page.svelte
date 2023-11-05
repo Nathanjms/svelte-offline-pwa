@@ -1,4 +1,16 @@
+<script>
+	import { page } from '$app/stores';
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+		console.log('mounted');
+	});
+
+	$: console.log($page);
+</script>
+
 <h1 class="text-3xl">Test Page</h1>
-<p>
-    Test add content!
-</p>
+<pre><code
+		>{JSON.stringify($page, null, 2)}
+    </code>
+</pre>

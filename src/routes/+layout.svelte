@@ -12,6 +12,6 @@
 		</main>
 	</div>
 	<div>
-		<footer class="container mx-auto">Footer!</footer>
+		<footer class="container mx-auto py-2">Footer!</footer>
 	</div>
 </div>
